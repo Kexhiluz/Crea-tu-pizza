@@ -1,0 +1,116 @@
+body{
+    background: lightgrey;
+    margin-left: 40px;
+}
+
+.div1{
+    background-color: blueviolet;
+    width: 95%;
+    height: 30%;
+    padding-left: 20px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+}
+
+.div4{
+    padding: 1%;
+    margin-left: 30px;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+}
+h3{
+    color: white;
+    margin-top: -30px;
+}
+h4{
+    color: white;
+}
+h5{
+    font-size: 20px;
+    margin-top: 50px;
+}
+p{
+    display: inline;
+    margin: 10px;
+    position: relative;
+    top: 30px;
+    left: -340px;
+}
+pre{
+    display: inline;
+    margin: 10px;
+    position: relative;
+    top: 30px;
+    left: -310px;
+    font-weight: bold;
+}
+br{
+    margin: 1%;
+    margin-top: -2%;
+}
+.tab{
+    margin-left: 40px;
+}
+.box{
+    padding: 7px;
+    padding-right: 20px;
+}
+.box2{
+    padding: 7px;
+    padding-right: 70px;
+}
+
+.imagen1{
+    float: right;
+    position: relative;
+    top: 680px;
+    left: -120px;
+    height: 280px;
+    width: 280px;
+    background-color: transparent;
+}
+
+.img{
+    position: relative;
+    left: -100px;
+}
+.img2{
+    position: relative;
+    left: -70px;
+}
+.img3{
+    position: relative;
+    left: -70px;
+}
+.img4{
+    position: relative;
+    left: -120px;
+}
+
+aside{
+    float: right;
+    position: relative;
+    left: -120px;
+    top: 330px;
+}
+.box3{
+    width: 275px;
+    background-color: lightgrey;
+}
+.añadir{
+    color: white;
+    background-color: crimson;
+    width: 70px;
+    position: relative;
+    left: 290px;
+    top: 15px;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 8px;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Crea tu pizza</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="estilo.css" />
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+</head>
+
+<body>
+	<img class="imagen1" src="Pizzeria/Imagenes/masa.jpg">
+	<div class="div1">
+		<h1>Crea tu pizza</h1>
+		<h3>Crea tu pizza!</h3>
+		<h4>Diviértete creando tu pizza perfecta, elija la masa favorita y los ingredientes que más te gustan. Pole nombre a tu receta y guárdala para hacer tu proximo pedido más rápido y fácil.</h4>
+	</div>
+	<form>
+		<h5>¿Como la quieres?</h5>
+		<input class="box" name="ingresatexto" type="text" value="1 pizza" />
+		<select class="box2" name="nombre1">
+      <option value="1">Mediana</option>
+      <option value="2">Familiar</option>
+    </select>
+		<select class="box2" name="masa">
+      <option value="1">Original</option>
+      <option value="2">Roll Extra</option>
+      <option value="3">Domino's Roll</option>
+      <option value="4">Cabra & Roll</option>
+      <option value="5">Finízzima</option>
+      <option value="6">Artisan</option>
+      <option value="7">Pan</option>
+    </select>
+		<p>Para 2 personas</p>
+		<pre>Para aquellos amantes 
+                                                                                del autentico sabor 
+                                                                                de la pizza Domino's</pre>
+	</form>
+
+	<form>
+		<h5>¿Cuál es tu salsa?</h5>
+		<div class="div2"></div>
+		<label>
+      <input name="group1" type="radio" />
+      <span>Sin salsa</span>
+    </label>
+		<label>
+      <input name="group1" type="radio" />
+      <span>Salsa barbacoa</span>
+    </label>
+		<label>
+      <input name="group1" type="radio" checked />
+      <span>Salsa de tomate</span>
+    </label>
+		<label>
+      <input class="with-gap" name="group1" type="radio" />
+      <span>Crema fresca</span>
+    </label>
+		<label>
+      <input name="group1" type="radio" />
+      <span>Crema fresca y barbacoa</span>
+    </label>
+		<br>
+		<label>
+      <input name="group1" type="radio" />
+      <span>Salsa Bourbon (0% alcohol)</span>
+    </label>
+		<label>
+      <input name="group1" type="radio" />
+      <span>Salsa barbacoa Texas</span>
+    </label>
+		<label>
+      <input name="group1" type="radio" />
+      <span>Salsa barbacoa Kansas</span>
+    </label>
+  </form>
+
+	<form>
+		<h5>¿Cuanta mozzarella te apetece?</h5>
+		<div class="div3">
+			<label>
+        <input name="group1" type="radio" />
+        <span>Sin queso mozzarella</span>
+      </label>
+			<label>
+        <input class="tab" name="group1" type="radio" />
+        <span>Queso 100% mozzarella</span>
+      </label>
+			<label>
+        <input class="tab" name="group1" type="radio" checked />
+        <span>Extra de queso 100% mozzarella</span>
+      </label>
+			<label>
+        <input class="tab" name="group1" type="radio" />
+        <span>Doble extra de queso 100% mozzarella</span>
+      </label>
+		</div>
+	</form>
+
+	<aside>
+		<input class="box3" name="ingresatexto" type="text" value="Ponle un nombre si quieres" />
+		<form class="añadir" type="submit">
+			<input class="Añadir" type="submit" value="Añadir">
+		</form>
+	</aside>
+
+	<form>
+		<div class="div4">
+			<h5>¿Qué ingredientes ponemos?</h5>
+			<form>
+				<input name="aceitunas" type="checkbox" checked="checked" />Aceitunas
+				<img class="img" src="Pizzeria/Imagenes/aceitunas.png">
+				<input name="Bacon Crispy" type="checkbox" />Bacon Crispy
+				<img class="img" src="Pizzeria/Imagenes/baconcrispy.png">
+				<input name="Pollo bufalo" type="checkbox" />Pollo Búfalo
+				<img class="img" src="Pizzeria/Imagenes/pollobuffalo.png">
+				<input name="Anchoas" type="checkbox" checked="checked" />Anchoas
+				<img class="img" src="Pizzeria/Imagenes/anchoas.png">
+				<br>
+				<input name="Atún" type="checkbox" />Atún
+				<img class="img2" src="Pizzeria/Imagenes/atun.png">
+				<input name="Bacon" type="checkbox" />Bacon
+				<img class="img2" src="Pizzeria/Imagenes/bacon.png">
+				<input name="Cebolla" type="checkbox" />Cebolla
+				<img class="img2" src="Pizzeria/Imagenes/cebolla.png">
+				<input name="Champiñon" type="checkbox" />Champiñon
+				<img class="img2" src="Pizzeria/Imagenes/champinon.png">
+				<br>
+				<input name="York" type="checkbox" />York
+				<img class="img3" src="Pizzeria/Imagenes/jamon.png">
+				<input name="Jamón Serrano" type="checkbox" />Jamón Serrano
+				<img class="img3" src="Pizzeria/Imagenes/jamon_serrano.png">
+				<input name="Maíz" type="checkbox" />Maíz
+				<img class="img3" src="Pizzeria/Imagenes/maiz.png">
+				<input name="Pepperoni" type="checkbox" checked="checked" />Pepperoni
+				<img class="img3" src="Pizzeria/Imagenes/pepperoni.png">
+				<br>
+				<input name="Pimiento Verde" type="checkbox" />Pimiento Verde
+				<img class="img4" src="Pizzeria/Imagenes/pimiento.png">
+				<input name="Piña" type="checkbox" />Piña
+				<img class="img4" src="Pizzeria/Imagenes/pina.png">
+				<input name="Pollo a la parrilla" type="checkbox" />Pollo a la parrilla
+				<img class="img4" src="Pizzeria/Imagenes/pollo.png">
+				<input name="Ternera Especiada" type="checkbox" />Ternera Especiada
+				<img class="img4" src="Pizzeria/Imagenes/ternera.png">
+			</form>
+		</div>
+	</form>
+</body>
+</html>
+
